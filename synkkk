@@ -7,5 +7,5 @@ def index():
     name = request.args.get("name", "")
     return f"<h1>Welcome, {name}</h1>"  # XSS vulnerability here
 
-if __name__ == "__main__":
+if __name__ == "__main
     app.run(debug=True)
